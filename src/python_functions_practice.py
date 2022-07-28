@@ -51,6 +51,9 @@ def number_to_full_month_name(month_number):
 
 def number_to_short_month_name(month_number):
     return number_to_full_month_name(month_number)[0:3]
+    # second option
+    # short_month_name = number_to_short_month_name(month_number)
+    # return = short_month_name[0:3]
 
 #Given the length of a side of a cube calculate the volume
 def test_volume_of_cube(side_length):
